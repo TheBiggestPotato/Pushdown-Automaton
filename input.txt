@@ -1,0 +1,12 @@
+states: a b c d
+initial state: a
+input alphabet: ( )
+stack alphabet: $ ( )
+final states:d
+transitions:
+
+a ( b $ ($
+b ( b ( ((
+b ) c ( e
+c ) c ( e
+c e d $ e
